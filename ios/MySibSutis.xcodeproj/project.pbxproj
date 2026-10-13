@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5641B3FA3076739D00995A80 /* AcademicPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641B3F93076739B00995A80 /* AcademicPerformanceView.swift */; };
+		5641B3FC307673B500995A80 /* AcademicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641B3FB307673B300995A80 /* AcademicStore.swift */; };
+		566F1BFD30775DE9007ED3B8 /* AcademicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F1BFC30775DE0007ED3B8 /* AcademicCalendar.swift */; };
+		566F1BFF30775E73007ED3B8 /* AcademicNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F1BFE30775E70007ED3B8 /* AcademicNotificationManager.swift */; };
+		EDCA7D56306FAECA00A30EBF /* ScheduleFileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D55306FAD3700A30EBF /* ScheduleFileImporter.swift */; };
+		EDCA7D57306FAECA00A30EBF /* ScheduleImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D54306FAD1000A30EBF /* ScheduleImporter.swift */; };
+		EDCA7D58306FAECA00A30EBF /* ScheduleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D53306FA33E00A30EBF /* ScheduleParser.swift */; };
+		EDCA7D59306FAECA00A30EBF /* ScheduleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D52306FA25400A30EBF /* ScheduleStore.swift */; };
+		EDCA7D5A306FAECA00A30EBF /* ScheduleModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D50306FA1FD00A30EBF /* ScheduleModels.swift */; };
+		EDCA7D5C306FD1AC00A30EBF /* ScheduleDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D5B306FD1A900A30EBF /* ScheduleDateHelper.swift */; };
+		EDCA7D5E306FD1D400A30EBF /* AttendanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D5D306FD1D100A30EBF /* AttendanceStore.swift */; };
+		EDCA7D60306FD9FF00A30EBF /* PointsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7D5F306FD9FB00A30EBF /* PointsStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5641B3F93076739B00995A80 /* AcademicPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicPerformanceView.swift; sourceTree = "<group>"; };
+		5641B3FB307673B300995A80 /* AcademicStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicStore.swift; sourceTree = "<group>"; };
+		566F1BFC30775DE0007ED3B8 /* AcademicCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicCalendar.swift; sourceTree = "<group>"; };
+		566F1BFE30775E70007ED3B8 /* AcademicNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicNotificationManager.swift; sourceTree = "<group>"; };
+		EDCA7D50306FA1FD00A30EBF /* ScheduleModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModels.swift; sourceTree = "<group>"; };
+		EDCA7D52306FA25400A30EBF /* ScheduleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStore.swift; sourceTree = "<group>"; };
+		EDCA7D53306FA33E00A30EBF /* ScheduleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleParser.swift; sourceTree = "<group>"; };
+		EDCA7D54306FAD1000A30EBF /* ScheduleImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleImporter.swift; sourceTree = "<group>"; };
+		EDCA7D55306FAD3700A30EBF /* ScheduleFileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleFileImporter.swift; sourceTree = "<group>"; };
+		EDCA7D5B306FD1A900A30EBF /* ScheduleDateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDateHelper.swift; sourceTree = "<group>"; };
+		EDCA7D5D306FD1D100A30EBF /* AttendanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceStore.swift; sourceTree = "<group>"; };
+		EDCA7D5F306FD9FB00A30EBF /* PointsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsStore.swift; sourceTree = "<group>"; };
+		EDF4A8E1306F728C00D9AC8A /* MySibSutis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySibSutis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EDF4A8E3306F728C00D9AC8A /* UniversityStats */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniversityStats;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF4A8DE306F728C00D9AC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCA7D51306FA24600A30EBF /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				566F1BFE30775E70007ED3B8 /* AcademicNotificationManager.swift */,
+				566F1BFC30775DE0007ED3B8 /* AcademicCalendar.swift */,
+				5641B3FB307673B300995A80 /* AcademicStore.swift */,
+				5641B3F93076739B00995A80 /* AcademicPerformanceView.swift */,
+				EDCA7D5F306FD9FB00A30EBF /* PointsStore.swift */,
+				EDCA7D5D306FD1D100A30EBF /* AttendanceStore.swift */,
+				EDCA7D5B306FD1A900A30EBF /* ScheduleDateHelper.swift */,
+				EDCA7D55306FAD3700A30EBF /* ScheduleFileImporter.swift */,
+				EDCA7D54306FAD1000A30EBF /* ScheduleImporter.swift */,
+				EDCA7D53306FA33E00A30EBF /* ScheduleParser.swift */,
+				EDCA7D52306FA25400A30EBF /* ScheduleStore.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		EDF4A8D8306F728C00D9AC8A = {
+			isa = PBXGroup;
+			children = (
+				EDCA7D51306FA24600A30EBF /* Schedule */,
+				EDF4A8EF306F89AD00D9AC8A /* Models */,
+				EDF4A8E3306F728C00D9AC8A /* UniversityStats */,
+				EDF4A8E2306F728C00D9AC8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF4A8E2306F728C00D9AC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4A8E1306F728C00D9AC8A /* MySibSutis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF4A8EF306F89AD00D9AC8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA7D50306FA1FD00A30EBF /* ScheduleModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF4A8E0306F728C00D9AC8A /* MySibSutis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF4A8EC306F728E00D9AC8A /* Build configuration list for PBXNativeTarget "MySibSutis" */;
+			buildPhases = (
+				EDF4A8DD306F728C00D9AC8A /* Sources */,
+				EDF4A8DE306F728C00D9AC8A /* Frameworks */,
+				EDF4A8DF306F728C00D9AC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EDF4A8E3306F728C00D9AC8A /* UniversityStats */,
+			);
+			name = MySibSutis;
+			packageProductDependencies = (
+			);
+			productName = UniversityStats;
+			productReference = EDF4A8E1306F728C00D9AC8A /* MySibSutis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF4A8D9306F728C00D9AC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					EDF4A8E0306F728C00D9AC8A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = EDF4A8DC306F728C00D9AC8A /* Build configuration list for PBXProject "MySibSutis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF4A8D8306F728C00D9AC8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EDF4A8E2306F728C00D9AC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF4A8E0306F728C00D9AC8A /* MySibSutis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF4A8DF306F728C00D9AC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF4A8DD306F728C00D9AC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCA7D56306FAECA00A30EBF /* ScheduleFileImporter.swift in Sources */,
+				566F1BFD30775DE9007ED3B8 /* AcademicCalendar.swift in Sources */,
+				EDCA7D57306FAECA00A30EBF /* ScheduleImporter.swift in Sources */,
+				566F1BFF30775E73007ED3B8 /* AcademicNotificationManager.swift in Sources */,
+				5641B3FC307673B500995A80 /* AcademicStore.swift in Sources */,
+				EDCA7D58306FAECA00A30EBF /* ScheduleParser.swift in Sources */,
+				EDCA7D59306FAECA00A30EBF /* ScheduleStore.swift in Sources */,
+				EDCA7D5A306FAECA00A30EBF /* ScheduleModels.swift in Sources */,
+				EDCA7D5E306FD1D400A30EBF /* AttendanceStore.swift in Sources */,
+				EDCA7D5C306FD1AC00A30EBF /* ScheduleDateHelper.swift in Sources */,
+				5641B3FA3076739D00995A80 /* AcademicPerformanceView.swift in Sources */,
+				EDCA7D60306FD9FF00A30EBF /* PointsStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDF4A8EA306F728E00D9AC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF4A8EB306F728E00D9AC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EDF4A8ED306F728E00D9AC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MySibSutis;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirill.UniversityStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		EDF4A8EE306F728E00D9AC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MySibSutis;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirill.UniversityStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF4A8DC306F728C00D9AC8A /* Build configuration list for PBXProject "MySibSutis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4A8EA306F728E00D9AC8A /* Debug */,
+				EDF4A8EB306F728E00D9AC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF4A8EC306F728E00D9AC8A /* Build configuration list for PBXNativeTarget "MySibSutis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4A8ED306F728E00D9AC8A /* Debug */,
+				EDF4A8EE306F728E00D9AC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF4A8D9306F728C00D9AC8A /* Project object */;
+}
