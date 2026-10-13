@@ -20,7 +20,7 @@ University Stats помогает студентам работать с рас�
 
 ## Source archives / ZIP-архивы
 
-Separate Android and iOS source archives are available in the repository's Releases / Отдельные архивы исходников для Android и iOS доступны во вкладке Releases.
+Optional clean source archives are available in downloads/: UniversityStats-Android-Source.zip and UniversityStats-iOS-Source.zip.
 
 ## License / Лицензия
 
